@@ -1,0 +1,33 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "diamond_clip",
+    "customModelName": "Normal",
+    "name": "Diamond clip",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 4.0,
+    "attackSpeed": 5.0,
+    "enchantability": 30,
+    "damageVsEntity": 100.0,
+    "usageCount": 114514,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.STICK"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "DiamondclipLivingEntityIsHitWithTool"
+    }
+  }
+}

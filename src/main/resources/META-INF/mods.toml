@@ -5,9 +5,9 @@ loaderVersion="[31,)"
 modId="pcl"
 version="1.0.0"
 displayName="More Clips"
-credits="Coded by ExecuteIf ;Created gradle project using MCreator"
+credits="Coded by ExecuteIf"
 displayURL="https://github.com/ChengT-cmd/mod_pcl"
-authors="ExecuteIf, MCreator"
+authors="ExecuteIf"
 description='''
 More Clips!(Only for PCL users)
 '''

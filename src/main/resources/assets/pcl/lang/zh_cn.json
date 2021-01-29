@@ -1,0 +1,13 @@
+{
+  "item.pcl.ironclip": "铁夹子",
+  "advancements.wanna_clip.title": "你要 夹子？",
+  "advancements.swc.title": "Swining your clip from side to side",
+  "advancements.getupload.title": "获得升级",
+  "item.pcl.stoneclip": "石夹子",
+  "item.pcl.woodenclip": "木夹子",
+  "item.pcl.diamondclip": "钻石夹子",
+  "item.pcl.goldenclip": "金夹子",
+  "advancements.getupload.descr": "获得铁夹子",
+  "advancements.swc.descr": "获得钻石夹子",
+  "advancements.wanna_clip.descr": "获得木夹子"
+}

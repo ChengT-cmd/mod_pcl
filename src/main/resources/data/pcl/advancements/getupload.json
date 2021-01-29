@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "pcl:ironclip"
+    },
+    "title": {
+      "translate": "advancements.getupload.title"
+    },
+    "description": {
+      "translate": "advancements.getupload.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "getupload": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pcl:ironclip",
+            "count": {
+              "min": 1,
+              "max": 27
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "pcl:wanna_clip"
+}

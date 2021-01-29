@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="pcl"
+version="1.0.0"
+displayName="More Clips"
+credits="Coded by ExecuteIf ;Created gradle project using MCreator"
+displayURL="https://github.com/ChengT-cmd/mod_pcl"
+authors="ExecuteIf, MCreator"
+description='''
+More Clips!(Only for PCL users)
+'''
+
+[[dependencies.pcl]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

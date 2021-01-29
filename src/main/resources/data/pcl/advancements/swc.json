@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "pcl:diamondclip"
+    },
+    "title": {
+      "translate": "advancements.swc.title"
+    },
+    "description": {
+      "translate": "advancements.swc.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "swc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pcl:diamondclip",
+            "count": {
+              "min": 1,
+              "max": 27
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "pcl:wanna_clip"
+}

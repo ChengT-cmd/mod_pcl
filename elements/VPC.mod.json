@@ -1,0 +1,35 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "pcl",
+    "customModelName": "Normal",
+    "name": "Virtual Private Clip",
+    "specialInfo": [
+      "¼ÐËÙÆ÷"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 255,
+    "efficiency": 255.0,
+    "attackSpeed": 10.0,
+    "enchantability": 255,
+    "damageVsEntity": 114514.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.STICK"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "VPCRightClickedInAir"
+    }
+  }
+}

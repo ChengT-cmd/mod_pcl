@@ -1,0 +1,39 @@
+{
+  "_fv": 13,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "pcl",
+    "customModelName": "Normal",
+    "name": "Ender Clip",
+    "specialInfo": [
+      "Clip somebody remotly..."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:VPN"
+    },
+    "shootConstantly": false,
+    "usageCount": 1,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": true,
+    "animation": "crossbow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 114514.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 10000.0,
+    "bulletKnockback": 10,
+    "bulletParticles": true,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Ironclip"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "pcl.png"
+  }
+}

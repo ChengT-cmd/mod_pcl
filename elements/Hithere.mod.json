@@ -1,0 +1,196 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Player STEVE",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Player STEVE",
+          "x": 178,
+          "y": 46
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "steve",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "steve",
+          "x": 131,
+          "y": 56
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Hi, There!",
+          "color": {
+            "value": -13369345,
+            "falpha": 0.0
+          },
+          "name": "Hi, There!",
+          "x": 136,
+          "y": 66
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Why you here?",
+          "color": {
+            "value": -16711681,
+            "falpha": 0.0
+          },
+          "name": "Why you here?",
+          "x": 136,
+          "y": 77
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "YOU",
+          "color": {
+            "value": -16724992,
+            "falpha": 0.0
+          },
+          "name": "YOU",
+          "x": 274,
+          "y": 84
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Why the hell I gonna tell you?",
+          "color": {
+            "value": -13369600,
+            "falpha": 0.0
+          },
+          "name": "Why the hell I gonna tell you?",
+          "x": 138,
+          "y": 97
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "steve",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "steve",
+          "x": 130,
+          "y": 112
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Alright.",
+          "color": {
+            "value": -16711681,
+            "falpha": 0.0
+          },
+          "name": "Alright.",
+          "x": 136,
+          "y": 123
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You the hell better be far from",
+          "color": {
+            "value": -16711681,
+            "falpha": 0.0
+          },
+          "name": "You the hell better be far from",
+          "x": 135,
+          "y": 135
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " the administrators",
+          "color": {
+            "value": -16711681,
+            "falpha": 0.0
+          },
+          "name": " the administrators",
+          "x": 123,
+          "y": 144
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Chat...",
+          "width": 120,
+          "height": 20,
+          "name": "awa",
+          "x": 131,
+          "y": 177
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "send",
+          "onClick": {
+            "name": "Sendmessage"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "send",
+          "x": 253,
+          "y": 177
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Or you will die.Their clips are ",
+          "color": {
+            "value": -16711681,
+            "falpha": 0.0
+          },
+          "name": "Or you will die.Their clips are ",
+          "x": 135,
+          "y": 157
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "quite strong.",
+          "color": {
+            "value": -16711681,
+            "falpha": 0.0
+          },
+          "name": "quite strong.",
+          "x": 127,
+          "y": 167
+        }
+      }
+    ]
+  }
+}

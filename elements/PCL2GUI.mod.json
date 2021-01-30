@@ -1,0 +1,102 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "pcl.png",
+          "use1Xscale": false,
+          "name": "pcl.png",
+          "x": 302,
+          "y": -9
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pcl.png",
+          "use1Xscale": false,
+          "name": "pcl.png",
+          "x": -132,
+          "y": -11
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "PCL II Minecart Launcher",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "PCL II Minecart Launcher",
+          "x": 146,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Minecart + YOU",
+          "color": {
+            "value": -65485,
+            "falpha": 0.0
+          },
+          "name": "Minecart + YOU",
+          "x": 146,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Launch TODAY!",
+          "color": {
+            "value": -65485,
+            "falpha": 0.0
+          },
+          "name": "Launch TODAY!",
+          "x": 147,
+          "y": 68
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Minecartblock"
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 236,
+          "y": 61
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "LAUNCH",
+          "onClick": {
+            "name": "SpawnMinecart"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "LAUNCH",
+          "x": 183,
+          "y": 82
+        }
+      }
+    ]
+  }
+}

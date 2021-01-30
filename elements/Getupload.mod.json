@@ -2,12 +2,12 @@
   "_fv": 13,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Getupload",
+    "achievementName": "This is...Iron clip?!?",
     "achievementDescription": "get a iron clip",
     "achievementIcon": {
       "value": "CUSTOM:Ironclip"
     },
-    "background": "Default",
+    "background": "pcl.png",
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
@@ -18,7 +18,7 @@
     "rewardXP": 100,
     "achievementType": "task",
     "parent": {
-      "value": "CUSTOM:WannaClip"
+      "value": "CUSTOM:Stoneclipadv"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"51\" y=\"9\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">27</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Ironclip</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }

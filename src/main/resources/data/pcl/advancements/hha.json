@@ -4,26 +4,26 @@
       "item": "pcl:diamondclip"
     },
     "title": {
-      "translate": "advancements.swc.title"
+      "translate": "advancements.hha.title"
     },
     "description": {
-      "translate": "advancements.swc.descr"
+      "translate": "advancements.hha.descr"
     },
-    "frame": "challenge",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "swc": {
-      "trigger": "minecraft:inventory_changed",
+    "hha": {
+      "trigger": "minecraft:item_durability_changed",
       "conditions": {
         "items": [
           {
-            "item": "pcl:diamondclip",
-            "count": {
-              "min": 1,
-              "max": 27
+            "item": "pcl:woodenclip",
+            "durability": {
+              "min": 0,
+              "max": 16000
             }
           }
         ]
@@ -31,7 +31,7 @@
     }
   },
   "rewards": {
-    "experience": 600
+    "experience": 1
   },
-  "parent": "pcl:shining"
+  "parent": "pcl:wanna_clip"
 }

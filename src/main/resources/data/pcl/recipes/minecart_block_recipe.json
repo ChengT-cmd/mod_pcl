@@ -1,0 +1,16 @@
+{
+  "group": "pcl",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:grass"
+    },
+    {
+      "item": "minecraft:dirt"
+    }
+  ],
+  "result": {
+    "item": "pcl:minecartblock",
+    "count": 1
+  }
+}

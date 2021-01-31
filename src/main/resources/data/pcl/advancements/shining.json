@@ -1,14 +1,13 @@
 {
   "display": {
-    "background": "pcl:textures/pcl.png",
     "icon": {
-      "item": "pcl:woodenclip"
+      "item": "pcl:goldenclip"
     },
     "title": {
-      "translate": "advancements.wanna_clip.title"
+      "translate": "advancements.shining.title"
     },
     "description": {
-      "translate": "advancements.wanna_clip.descr"
+      "translate": "advancements.shining.descr"
     },
     "frame": "goal",
     "show_toast": true,
@@ -16,12 +15,12 @@
     "hidden": false
   },
   "criteria": {
-    "wanna_clip": {
+    "shining": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "pcl:woodenclip",
+            "item": "pcl:goldenclip",
             "count": {
               "min": 1,
               "max": 27
@@ -32,6 +31,7 @@
     }
   },
   "rewards": {
-    "experience": 100
-  }
+    "experience": 300
+  },
+  "parent": "pcl:getupload"
 }

@@ -1,0 +1,13 @@
+{
+  "group": "pcl",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:feather"
+    }
+  ],
+  "result": {
+    "item": "pcl:vpc",
+    "count": 1
+  }
+}

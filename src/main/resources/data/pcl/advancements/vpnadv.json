@@ -1,14 +1,13 @@
 {
   "display": {
-    "background": "pcl:textures/pcl.png",
     "icon": {
-      "item": "pcl:woodenclip"
+      "item": "minecraft:ender_eye"
     },
     "title": {
-      "translate": "advancements.wanna_clip.title"
+      "translate": "advancements.vpnadv.title"
     },
     "description": {
-      "translate": "advancements.wanna_clip.descr"
+      "translate": "advancements.vpnadv.descr"
     },
     "frame": "goal",
     "show_toast": true,
@@ -16,12 +15,12 @@
     "hidden": false
   },
   "criteria": {
-    "wanna_clip": {
+    "vpnadv": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "pcl:woodenclip",
+            "item": "pcl:vpn",
             "count": {
               "min": 1,
               "max": 27
@@ -32,6 +31,7 @@
     }
   },
   "rewards": {
-    "experience": 100
-  }
+    "experience": 700
+  },
+  "parent": "pcl:swc"
 }

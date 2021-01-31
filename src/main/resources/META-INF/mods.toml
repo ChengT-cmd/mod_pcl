@@ -3,10 +3,11 @@ loaderVersion="[31,)"
 
 [[mods]]
 modId="pcl"
-version="1.0.0"
-displayName="More Clips"
+version="4.0.0"
+displayName="Clips"
 credits="Coded by ExecuteIf"
 displayURL="https://github.com/ChengT-cmd/mod_pcl"
+logoFile="logo.png"
 authors="ExecuteIf"
 description='''
 More Clips!(Only for PCL users)

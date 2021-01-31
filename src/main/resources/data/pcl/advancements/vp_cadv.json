@@ -1,27 +1,27 @@
 {
   "display": {
-    "background": "pcl:textures/pcl.png",
+    "background": "minecraft:textures/block/stone.png",
     "icon": {
-      "item": "pcl:woodenclip"
+      "item": "minecraft:feather"
     },
     "title": {
-      "translate": "advancements.wanna_clip.title"
+      "translate": "advancements.vp_cadv.title"
     },
     "description": {
-      "translate": "advancements.wanna_clip.descr"
+      "translate": "advancements.vp_cadv.descr"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "wanna_clip": {
+    "vp_cadv": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "pcl:woodenclip",
+            "item": "pcl:vpc",
             "count": {
               "min": 1,
               "max": 27
@@ -32,6 +32,6 @@
     }
   },
   "rewards": {
-    "experience": 100
+    "experience": 900
   }
 }

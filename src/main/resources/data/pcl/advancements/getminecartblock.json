@@ -1,14 +1,13 @@
 {
   "display": {
-    "background": "pcl:textures/pcl.png",
     "icon": {
-      "item": "pcl:woodenclip"
+      "item": "pcl:minecartblock"
     },
     "title": {
-      "translate": "advancements.wanna_clip.title"
+      "translate": "advancements.getminecartblock.title"
     },
     "description": {
-      "translate": "advancements.wanna_clip.descr"
+      "translate": "advancements.getminecartblock.descr"
     },
     "frame": "goal",
     "show_toast": true,
@@ -16,15 +15,15 @@
     "hidden": false
   },
   "criteria": {
-    "wanna_clip": {
+    "getminecartblock": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "pcl:woodenclip",
+            "item": "pcl:minecartblock",
             "count": {
               "min": 1,
-              "max": 27
+              "max": 64
             }
           }
         ]
@@ -32,6 +31,7 @@
     }
   },
   "rewards": {
-    "experience": 100
-  }
+    "experience": 1
+  },
+  "parent": "pcl:get_pcl"
 }

@@ -101,7 +101,8 @@ public class VPNItem extends PclModElements.ModElement {
 		}
 
 		@Override
-		public void onPlayerStoppedUsing(ItemStack itemstack, World world, LivingEntity entityLiving, int timeLeft) {
+		public void onUsingTick(ItemStack itemstack, LivingEntity entityLiving, int count) {
+			World world = entityLiving.world;
 			if (!world.isRemote && entityLiving instanceof ServerPlayerEntity) {
 				ServerPlayerEntity entity = (ServerPlayerEntity) entityLiving;
 				double x = entity.getPosX();
@@ -119,7 +120,7 @@ public class VPNItem extends PclModElements.ModElement {
 						}
 					}
 					if (entity.abilities.isCreativeMode || stack != ItemStack.EMPTY) {
-						ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 10000, 10);
+						ArrowCustomEntity entityarrow = shoot(world, entity, random, 100f, 10000, 10);
 						itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 						if (entity.abilities.isCreativeMode) {
 							entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.CREATIVE_ONLY;
@@ -138,6 +139,7 @@ public class VPNItem extends PclModElements.ModElement {
 							}
 						}
 					}
+					entity.stopActiveHand();
 				}
 			}
 		}
@@ -169,7 +171,7 @@ public class VPNItem extends PclModElements.ModElement {
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public ItemStack getItem() {
-			return new ItemStack(IronclipItem.block, (int) (1));
+			return new ItemStack(DiamondclipItem.block, (int) (1));
 		}
 
 		@Override
@@ -219,7 +221,7 @@ public class VPNItem extends PclModElements.ModElement {
 		double d0 = target.getPosY() + (double) target.getEyeHeight() - 1.1;
 		double d1 = target.getPosX() - entity.getPosX();
 		double d3 = target.getPosZ() - entity.getPosZ();
-		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1f * 2, 12.0F);
+		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 100f * 2, 12.0F);
 		entityarrow.setSilent(true);
 		entityarrow.setDamage(10000);
 		entityarrow.setKnockbackStrength(10);

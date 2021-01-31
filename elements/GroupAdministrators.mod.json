@@ -23,11 +23,11 @@
     "creativeTab": {
       "value": "MISC"
     },
-    "isBoss": true,
+    "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": ""
+      "value": "CUSTOM:Ironclip"
     },
     "equipmentOffHand": {
       "value": ""
@@ -49,10 +49,10 @@
     "attackStrength": 5,
     "attackKnockback": 10.0,
     "knockbackResistance": 1000.0,
-    "movementSpeed": 0.4,
+    "movementSpeed": 1.0,
     "armorBaseValue": 0.0,
     "trackingRange": 128,
-    "health": 20,
+    "health": 40,
     "xpAmount": 0,
     "waterMob": false,
     "flyingMob": false,
@@ -72,7 +72,7 @@
     "immuneToPotions": true,
     "immuneToPlayer": false,
     "mobDrop": {
-      "value": "CUSTOM:Ironclip"
+      "value": ""
     },
     "livingSound": {
       "value": "block.enchantment_table.use"
@@ -109,8 +109,12 @@
     "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
-    "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
+    "maxNumberOfMobsPerGroup": 3,
+    "restrictionBiomes": [
+      {
+        "value": "nether"
+      }
+    ],
     "spawnInDungeons": false
   }
 }

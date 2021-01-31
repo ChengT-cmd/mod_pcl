@@ -5,7 +5,7 @@
     "mobName": "Group Member",
     "mobLabel": "",
     "mobModelName": "Biped",
-    "mobModelTexture": "steve.png",
+    "mobModelTexture": "alex.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
@@ -108,8 +108,8 @@
     "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
     "mobSpawningType": "creature",
-    "minNumberOfMobsPerGroup": 5,
-    "maxNumberOfMobsPerGroup": 10,
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 2,
     "restrictionBiomes": [],
     "spawnInDungeons": false
   }

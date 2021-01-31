@@ -16,7 +16,7 @@
     "ammoItem": {
       "value": "CUSTOM:VPN"
     },
-    "shootConstantly": false,
+    "shootConstantly": true,
     "usageCount": 1,
     "actionSound": {
       "value": "entity.arrow.shoot"
@@ -25,13 +25,13 @@
     "animation": "crossbow",
     "enableMeleeDamage": false,
     "damageVsEntity": 114514.0,
-    "bulletPower": 1.0,
+    "bulletPower": 100.0,
     "bulletDamage": 10000.0,
     "bulletKnockback": 10,
     "bulletParticles": true,
     "bulletIgnitesFire": true,
     "bulletItemTexture": {
-      "value": "CUSTOM:Ironclip"
+      "value": "CUSTOM:Diamondclip"
     },
     "bulletModel": "Default",
     "customBulletModelTexture": "pcl.png"
